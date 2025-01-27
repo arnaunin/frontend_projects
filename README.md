@@ -4,10 +4,9 @@ Este repositorio contiene una colección de proyectos de diseño y desarrollo we
 
 ## Proyectos
 
-### 1. Figma para desarrolladores
-### 2. Header Business Agency
-### 3. Creative Agency
-### 4. Coworking Space
-### 5. NFT Marketplace
-### 6. Grocery Store
-### 7. Elearning Laanding Page Responsive
+### 1. Header Business Agency
+### 2. Creative Agency
+### 3. Coworking Space
+### 4. NFT Marketplace
+### 5. Grocery Store
+### 6. Elearning Laanding Page Responsive
