@@ -28,7 +28,7 @@ Esto mostrará las versiones de Node.js y npm (Node Package Manager)
    
 #### 2. Instalar Vite
   
-Vite es una alternativa mejor a live server de Visual Studio que nos cargaá nuestro proyecto en un     puerto local para que podamos visualizarlo y ver los cambios en tiempo real
+Vite es una alternativa mejor a live server de Visual Studio que nos cargará nuestro proyecto en un puerto local para que podamos visualizarlo y ver los cambios en tiempo real
 
 Ejecuta el siguiente comando:
 
