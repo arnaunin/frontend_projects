@@ -247,162 +247,131 @@ textarea {
 
 
 /*---Aquí empieza el proyecto---*/
+:root {
+  --color-blue: #515DEF;
+  --color-black: #333333;
+  --color-white: #FBFBFB;
+  --color-grey: #909090;
+}
+
 body {
-  font-family: "Poppins", serif;
-  color: #424241;
+  font-family: "Poppins", serif;;
   margin: 0;
   padding: 0;
-  background-image: url(../img/hero@2x.jpg);
+  background-color: var(--color-blue);
+  background-image: url(../img/imagen-hero@2x.jpg);
   background-position: top right;
-  background-size: 900px;
   background-repeat: no-repeat;
+  background-size: 710px;
 }
 
-body p {
-  color: #909090;
-}
-
-.page {
-  max-width: 1200px;
+div.container {
+  max-width: 85%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 /*---HEADER---*/
-.container {
+header.main-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  gap: 70px;
 }
 
-.container nav ul li:hover {
+header.main-header ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+header.main-header ul li a {
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  padding: 10px 20px;
+}
+
+header.main-header nav ul li a {
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+
+header.main-header nav ul li a:hover {
   transform: scale(1.1);
 }
 
-.container nav ul li {
-  transition: opacity 0.3s ease;
+header.main-header nav {
+  width: 100%;
 }
 
-.container nav ul:hover li {
-  opacity: 0.5;
-}
-
-.container nav ul li:hover {
-  opacity: 1;
-}
-
-.container ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style: none;
-  gap: 40px;
-}
-
-.container ul a {
-  text-decoration: none;
-  color: #424241;
+header.main-header nav ul li:last-child {
+  margin-left: auto;
+  background-color: black;
 }
 
 /*---HERO---*/
 section.hero {
-  max-width: 60%;
-  margin-bottom: 80px;
-}
-
-.hero p {
-  margin: 0;
-}
-
-.hero h1 {
-  font-family: "Bebas Neue", serif;
-  text-transform: uppercase;
-  font-size: 85px;
-  font-weight: 400;
-  line-height: 1.1em;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 10px;
-}
-
-.hero .hero_content p:nth-child(2) {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 40px;
-}
-
-.hero h1 .highlight {
-  color: #7EDAD2;
-}
-
-.hero .hero_content a {
-  display: inline-block;
-  text-decoration: none;
-  color: white;
-  background-color: #7EDAD2;
-  padding: 10px 20px;
-  margin-bottom: 30px;
-  transition: background-color 0.1s ease-in-out;
-}
-
-.hero .hero_content a:hover {
-  background-color: #4ebdb6;
-} 
-
-div.hero_numbers {
-  display: flex;
-  justify-content: space-between;
-  max-width: 50%;
-}
-
-.hero_numbers > div > p:first-child {
-  font-family: "Bebas Neue", serif;
-  font-weight: bold;
-  font-size: 40px;
-  font-weight: 400;
-  color: #424241;
-}
-
-.hero_numbers > div > p:nth-child(2) {
-  font-size: 12px;
-}
-
-.hero_numbers div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  color: var(--color-white);
+  margin-bottom: 50px;
+}
+
+section.hero a {
+  text-decoration: none;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  width: 15%;
+}
+
+.hero__initial {
+  max-width: 50%;
+  margin: 0;
+  font-size: 20px;
+}
+
+.hero__title {
+  max-width: 50%;
+  font-size: 55px;
+  margin: 0;
+}
+
+.hero__subtitle {
+  margin: 0;
+  max-width: 52%;
+  font-size: 20px;
 }
 
 /*---CATEGORIES---*/
 .categories {
+  background-color: var(--color-white);
   display: flex;
-  gap: 20px;
-  justify-content: space-between;
+  gap: 70px;
+  position: relative;
+  padding: 70px 70px;
+  transform: translateX(-120px);
 }
 
 .categories article {
-  background-color: white;
-  padding: 20px;
+  background-color: var(--color-white);
 }
 
-.categories article:hover {
-  background-color: #7EDAD2;
-  color: white;
-  outline: 3px solid #6bc4bc;
+h3.category__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.categories article:hover p {
-  color: white;
-}
-
-.categories article p{
-  font-size: 12px;
-}
-
-.categories article h3 {
-  font-family: "Poppins", serif;
-  font-weight: 500;
+p.category__description {
+  color: var(--color-grey);
+  margin: 0;
 }
