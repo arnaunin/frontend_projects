@@ -37,6 +37,11 @@ Ejecuta el siguiente comando:
  ```
  Esto instalará Vite y todas las dependencias del proyecto localmente.
 
+ #### Descarga el proyecto
+ ```
+
+```
+
  #### 3. Dependencias del proyecto
 
 Una vez descargado el proyecto (por ejemplo, desde GitHub), abre la terminal en la carpeta del proyecto y ejecuta:
@@ -59,5 +64,13 @@ Esto generá un enlace como este:
 Local: http://localhost:3000/
 ```
 Accede a ese enlace en tu navegador para visualizar el proyecto
+
+
+
+
+## Contribuciones
+
+Este repositorio es personal, pero si quieres proponer mejoras a alguno de mis proyectos, estaré encantado de recibir tus sugerencias. Simplemente abre un **issue** o envíame una **pull request**.
+
 
    
