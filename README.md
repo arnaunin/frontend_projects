@@ -5,7 +5,7 @@ Este repositorio contiene una colección de proyectos de diseño y desarrollo we
 ## Proyectos
 
 #### [1. Header Business Agency](projects/Header_Business_Agency)
-#### [2. Creative Agency](projects/Creative_Company)
+#### [2. Creative Agency](projects/Creative_Agency)
 #### [3. Coworking Space](projects/Coworking_Space)
 #### [4. NFT Marketplace](projects/NFT_Marketplace)
 #### [5. Grocery Store](projects/Grocery_Store)
