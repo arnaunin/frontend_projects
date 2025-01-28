@@ -38,13 +38,14 @@ Ejecuta el siguiente comando:
  Esto instalará Vite y todas las dependencias del proyecto localmente.
 
  #### Descarga el proyecto
- ```
-
+ Para ello es necesario que tengas instalado git
+```
+git clone https://github.com/arnaunin/frontend_projects.git
 ```
 
  #### 3. Dependencias del proyecto
 
-Una vez descargado el proyecto (por ejemplo, desde GitHub), abre la terminal en la carpeta del proyecto y ejecuta:
+Una vez descargado el proyecto, abre la terminal en la carpeta del proyecto y ejecuta:
 
 ```
 npm install
@@ -53,7 +54,7 @@ Esto instalará todas las dependencias especificadas en package.json, incluido V
 
 #### 4. Ejecutar el proyecto
 
-- Navega a la carpeta del proyecto que quieras ver en la termial
+- Navega a la carpeta del proyecto que quieras ejecutar en la termial
 
 - Inicia el servidor de desarrollo de Vite con el siguiente comando:
 ```
