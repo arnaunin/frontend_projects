@@ -423,7 +423,7 @@ main .nft__data .buttons {
 main .nft__data .buttons a {
   font-weight: 600;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 12px;
 }
 main .nft__data .buttons__bid {
   display: inline-block;
