@@ -1,7 +1,7 @@
-# Header Business Agency
+# NFT Marketplace
 
-- En este proyecto no se utilia ni Sass ni vite, se parte de la base de una simple carpeta boilerplate de Html5.    
+- En este proyecto se utilia ni Sass.   
 
-- Se diseña la vista de escritorio de un header de una supuesta agencia de negocios.
+- Se diseña la vista de escritorio de un header de un NFT Marketplace.
 
-![Vista escritorio](../../vistas/vista_header_business_agency.png)
+![Vista escritorio](../../vistas/vista_NFT_marketplace.png)
