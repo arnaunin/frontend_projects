@@ -1,0 +1,528 @@
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  /*
+   * Remove text-shadow in selection highlight:
+   * https://twitter.com/miketaylr/status/12228805301
+   *
+   * Customize the background color to match your design.
+   */
+  
+  ::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  ::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+  }
+  
+  /*
+   * A better looking default horizontal rule
+   */
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  /*
+   * Remove the gap between audio, canvas, iframes,
+   * images, videos and the bottom of their containers:
+   * https://github.com/h5bp/html5-boilerplate/issues/440
+   */
+  
+  audio,
+  canvas,
+  iframe,
+  img,
+  svg,
+  video {
+    vertical-align: middle;
+  }
+  
+  /*
+   * Remove default fieldset styles.
+   */
+  
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+   * Allow only vertical resizing of textareas.
+   */
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* ==========================================================================
+     Author's custom styles
+     ========================================================================== */
+  
+  /* ==========================================================================
+     Helper classes
+     ========================================================================== */
+  
+  /*
+   * Hide visually and from screen readers
+   */
+  
+  .hidden,
+  [hidden] {
+    display: none !important;
+  }
+  
+  /*
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+   */
+  
+  .visually-hidden {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+  }
+  
+  /*
+   * Extends the .visually-hidden class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+  
+  .visually-hidden.focusable:active,
+  .visually-hidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+  }
+  
+  /*
+   * Hide visually and from screen readers, but maintain layout
+   */
+  
+  .invisible {
+    visibility: hidden;
+  }
+  
+  /*
+   * Clearfix: contain floats
+   *
+   * The use of `table` rather than `block` is only necessary if using
+   * `::before` to contain the top-margins of child elements.
+   */
+  
+  .clearfix::before,
+  .clearfix::after {
+    content: "";
+    display: table;
+  }
+  
+  .clearfix::after {
+    clear: both;
+  }
+  
+  /* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+  
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
+  
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
+  
+  /* ==========================================================================
+     Print styles.
+     Inlined to avoid the additional HTTP request:
+     https://www.phpied.com/delay-loading-your-print-css/
+     ========================================================================== */
+  
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
+  
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
+  
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
+  
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
+  
+    pre {
+      white-space: pre-wrap !important;
+    }
+  
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
+  
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
+  
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
+  
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
+  } 
+  
+  
+  /*---Aquí empieza el proyecto---*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  $rojo: #FA504D;
+  $gris-fuerte: #2E2F38;
+  $gris-claro: #8E8E8E;
+  $gris-letras-grandes: rgba(255, 255, 255, 0.05);
+  $poppins: "Poppins", serif;;
+  $belgrano: "Belgrano", serif;;
+  
+
+  @mixin button() {
+    display: inline-block;
+    background-color: $rojo;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      background-color: darken($rojo, 20%);
+    }
+  }
+
+  body {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: $poppins;
+
+    background-image: url(../img/ellipse.png), linear-gradient(to right, transparent 55%, $gris-fuerte 55%);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 400px, 100%;
+  }
+  /*---HEADER---*/
+  header.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .menu {
+      margin-left: 100px;
+
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 56px;
+
+        li a {
+          text-decoration: none;
+          color: $gris-fuerte;
+          font-size: 14px;
+        }
+      }
+    }
+      
+    .login {
+      margin-left: auto;
+
+      .btn {
+        @include button();
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 27px;
+  
+        li a {
+          text-decoration: none;
+          color: white;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    .hero {
+      grid-column: 1 / span 1;
+
+      background-image: url(../img/redondeado.svg), url(../img/line.png);
+      background-repeat: no-repeat;
+      background-size: 220px, 80px;
+      background-position: 120px 5px, 0px 293px;
+      padding-right: 40px;
+      margin-bottom: 30px;
+
+      &__title {
+        font-family: $belgrano;
+        font-size: 60px;
+        font-weight: 400;
+      }
+
+      &__subtitle {
+        margin-top: 20px;
+        color: $gris-claro;
+        font-size: 20px;
+      }
+
+      &__buttons {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+
+        a.btn {
+          @include button();
+          padding: 10px 70px;
+        }
+
+        a:nth-child(2) {
+          color: $gris-fuerte;
+        }
+      }
+    }
+
+    .featured {
+      grid-column: 1 / span 1;
+
+      &__title {
+        font-family: $belgrano;
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+  
+      &__images {
+        display: flex;
+        gap: 20px;
+  
+        img {
+          width: 43%;
+          padding: 10px;
+          border: 1px solid black;
+        }
+      }
+    }
+
+    .nft {
+      padding: 20px;
+      grid-column: 2 / span 1;
+      grid-row: 1 / span 2;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &__imagen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 95%;
+        }
+      }
+
+      &__data {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding: 20px;
+        top: -40px;
+
+        .header {
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+          padding-bottom: 20px;
+          border-bottom: 2px solid $gris-claro;
+
+          .owner {
+            display: flex;
+            align-items: flex-end;
+            gap: 12px;
+
+            &__data {
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+
+              .username {
+                font-size: 12px;
+                color: $gris-claro;
+              }
+
+              .nftname {
+                font-weight: 600;
+              }
+            }
+            
+            img {
+              width: 50px;
+            }
+          }
+
+          .price {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+
+            &__current {
+              font-size: 12px;
+              color: $gris-claro;
+            }
+
+            &__number {
+              font-weight: 600;
+            }
+          }
+        }
+
+        .buttons {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-top: 20px;
+
+          a {
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 13px;
+          }
+
+          &__bid {
+            @include button();
+            padding: 10px 80px;
+          }
+
+          &__artwork {
+            padding: 10px 80px;
+            color: $rojo;
+          }
+        }
+      }
+
+      &__numbers {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+
+          p {
+            font-size: 12px;
+            color: $gris-claro;
+          }
+
+          .number {
+            font-weight: 600;
+            color: $rojo;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+    
