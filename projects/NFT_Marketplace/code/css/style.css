@@ -232,8 +232,14 @@ body {
   font-family: "Poppins", serif;
   background-image: url(../img/ellipse.png), linear-gradient(to right, transparent 55%, #2E2F38 55%);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top left, all;
   background-size: 400px, 100%;
+}
+body .artzie {
+  width: 180px;
+  position: absolute;
+  top: 120px;
+  right: 10px;
 }
 
 /*---HEADER---*/
