@@ -1,0 +1,73 @@
+.hero {
+
+    &__content {
+        width: 50%;
+        padding-top: 80px;
+    }
+
+    &__title {
+        font-size: 60px;
+        color: $color-negro;
+        line-height: 65px;
+        margin-bottom: 10px;
+
+        span {
+            color: $color-salmon;
+        }
+    }
+
+    &__description {
+        width: 75%;
+        color: $color-gris;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    &__buscador {
+        display: flex;
+        align-items: stretch;
+        width: 60%;
+        margin-bottom: 30px;
+
+        input {
+            flex: 1;
+            background-color: $color-gris-claro;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px 0px 0px 10px;
+
+            &::placeholder {
+                color: $color-gris;
+                font-family: $poppins-font;
+                font-size: 15px;
+            }
+        }
+
+        button {
+            border: none;
+            background-color: $color-salmon;
+            padding: 10px 15px;
+            border-radius: 0px 10px 10px 0px;
+        }
+    }
+
+    &__info {
+        @include reset-list();
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 20px;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: $color-gris;
+            width: 40%;
+            font-size: 14px;
+        }
+
+        img {
+            width: 20px;
+        }
+    }
+}

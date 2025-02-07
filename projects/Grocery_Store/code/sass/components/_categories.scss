@@ -1,0 +1,28 @@
+.categories {
+    display: flex;
+    padding: 20px;
+    padding-top: 50px;
+    gap: 25px;
+
+    &__item {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 10px;
+        
+        img {
+            width: 80px;
+        }
+    }
+
+    &__title {
+        color: $color-negro;
+        font-weight: 600;
+    }
+
+    &__description {
+        color: $color-gris;
+        font-size: 15px;
+    }
+}

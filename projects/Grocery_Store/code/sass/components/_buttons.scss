@@ -1,0 +1,7 @@
+.btn {
+    @include button();
+
+    &:hover {
+        background-color: darken($color: $color-salmon, $amount: 10);
+    }
+}

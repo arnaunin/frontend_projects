@@ -1,0 +1,41 @@
+nav.header__menu {
+    
+    ul {
+        @include reset-list();
+        
+        a {
+            text-decoration: none;
+            color: $color-gris;
+
+            &.active, &:hover {
+                color: $color-salmon;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    height: 2px;
+                    background-color: $color-salmon;
+                    width: 80%;
+                    bottom: -10px;
+                    left: 10%;
+                }
+            }
+        }
+    }
+}
+
+nav.header__aside {
+
+    ul {
+        @include reset-list();
+
+        a.sign-in {
+            color: $color-salmon;
+        }
+
+        img {
+            width: 30px;
+        }
+    }
+}
