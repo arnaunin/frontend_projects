@@ -1,0 +1,26 @@
+.btn1 {
+    @include button();
+}
+
+.btn2 {
+    @include button--gradient($gradient-pink-orange, white);
+    padding: 15px 30px;
+    &:hover {
+        @include button--gradient($gradient-pink-orange-hover, white);
+        padding: 15px 30px;
+    }
+}
+
+.btn3 {
+    @include button--gradient($gradient-pink-blue, white);
+    &:hover {
+        @include button--gradient($gradient-pink-blue-hover, white);
+    }
+}
+
+.button-link {
+    @include button-link($pink);
+    &:hover {
+        @include button-link($pink-light);
+    }
+}

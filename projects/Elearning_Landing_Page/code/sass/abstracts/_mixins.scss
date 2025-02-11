@@ -1,0 +1,59 @@
+@mixin breakpoint($bp) {
+  @if $bp == tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp == tablethorizontal {
+    @media (min-width: $bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp == desktop {
+    @media (min-width: $bp-desktop) {
+      @content;
+    }
+  }
+
+  @if $bp == desktopxl {
+    @media (min-width: $bp-desktop-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin reset-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin button($bg-color: $black, $color: white) {
+  display: inline-block;
+  text-decoration: none;
+  background-color: $bg-color;
+  padding: 12px 20px;
+  border-radius: 28px;
+  font-weight: 700;
+  color: $color;
+
+  &:hover {
+    background-color: #666CA3;
+    color: rgba(252, 252, 255, 1);
+  }
+}
+
+@mixin button--gradient($bg-color: $black, $color: white) {
+  @include button();
+  background-image: $bg-color;
+  color: $color;
+}
+
+@mixin button-link($bg-color) {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: $bg-color;
+}

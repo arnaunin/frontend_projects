@@ -1,0 +1,164 @@
+.hero {
+    margin-bottom: 50px;
+
+    @include breakpoint(tablet) {
+        margin-bottom: 170px;
+    }
+
+    @include breakpoint(desktop) {
+        margin-bottom: 190px;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 40px;
+        color: $black;
+        margin-bottom: 25px;
+        line-height: 50.4px;
+
+        @include breakpoint(tablethorizontal) {
+            font-size: 48px;
+        }
+
+        @include breakpoint(desktopxl) {
+            font-size: 56px;
+            line-height: 70.56px;
+        }
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        color: $grey;
+        line-height: 26px;
+        margin-bottom: 20px;
+
+        @include breakpoint(desktopxl) {
+            font-size: 18px;
+        }
+    }
+
+    &__button {
+        margin-bottom: 50px;
+    }
+
+    &__img {
+        position: relative;
+        &-mobile {
+            margin-left: 10%;
+            text-align: center;
+            width: 80%;
+        }
+        @include breakpoint(tablet) {
+            width: 50%;
+            margin: 0;
+        }
+    }
+
+    &__number {
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        gap: 5px;
+        position: absolute;
+
+        span {
+            display: block;
+        }
+
+        &-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: $grey;
+        }
+
+        &-number {
+            font-size: 32px;
+            font-weight: 800;
+            color: $black;
+        }
+
+        &-1 {
+            padding: 16px 45px 16px 20px;
+            box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+            bottom: 0;
+            left: 0;
+
+            @include breakpoint(tablet) {
+                left: 10px;
+                bottom: -70px;
+            }
+
+            @include breakpoint(tablethorizontal) {
+                left: 90px;
+                bottom: -100px;
+            }
+
+            @include breakpoint(desktop) {
+                left: 150px;
+                bottom: 20px;
+            }
+
+            @include breakpoint(desktopxl) {
+                left: 270px;
+                bottom: -20px;
+            }
+        }
+
+        &-2 {
+            padding: 16px 20px;
+            box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+            top: 0;
+            right: 0;
+
+            @include breakpoint(tablet) {
+                top: -70px;
+            }
+
+            @include breakpoint(tablet) {
+                top: -50px;
+                right: 15px;
+            }
+
+            @include breakpoint(desktop) {
+                top: 40px;
+                right: -110px;
+            }
+
+            @include breakpoint(desktopxl) {
+                top: 60px;
+                right: -140px;
+            }
+        }
+    }
+
+    &__img-mobile {
+        @include breakpoint(tablet) {
+            display: none;
+        }
+    }
+
+    .container {
+        @include breakpoint(tablet) {
+            display: flex;
+        }        
+    }
+
+    &__content {
+        @include breakpoint(tablet) {
+            width: 65%;
+        }
+
+        @include breakpoint(tablethorizontal) {
+            width: 48%;
+        }
+
+        @include breakpoint(desktop) {
+            width: 42.5%;
+        }
+
+        @include breakpoint(desktopxl) {
+            width: 40%;
+        }
+    }
+}
+

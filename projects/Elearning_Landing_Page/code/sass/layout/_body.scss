@@ -1,0 +1,31 @@
+body {
+    @include breakpoint(tablet) {
+        background-image: url(../../img/hero-img.png);
+        background-repeat: no-repeat;
+        background-position: top -10px right -90px;
+        background-size: 425px;
+    }
+
+    @include breakpoint(tablethorizontal) {
+        background-image: url(../../img/hero-img.png);
+        background-repeat: no-repeat;
+        background-position: top right -10px;
+        background-size: 450px;
+    }
+
+    @include breakpoint(desktop) {
+        background-image: url(../../img/hero-img.png);
+        background-repeat: no-repeat;
+        background-position: top right -10px;
+        background-size: 500px;
+    }
+
+    @include breakpoint(desktopxl) {
+        background-image: url(../../img/hero-img.png);
+        background-repeat: no-repeat;
+        background-position: top right -10px;
+        background-size: 550px;
+    }
+
+    
+}
