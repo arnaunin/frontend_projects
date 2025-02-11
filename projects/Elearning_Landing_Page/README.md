@@ -7,5 +7,5 @@
 <br>
 <img src="../../vistas/elearning-responsive-tablet.png" width="250px">
 <br>
-<img src="../../vistas/elearning-responsive-desktop.png" width="150px">
+<img src="../../vistas/elearning-responsive-desktop.png">
 
