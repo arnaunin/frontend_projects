@@ -9,7 +9,7 @@ Este repositorio contiene una colección de proyectos de diseño y desarrollo we
 #### [3. Coworking Space](projects/Coworking_Space) --> [Ver resultado](https://arnaunin.github.io/frontend_projects/projects/Coworking_Space/code/)
 #### [4. NFT Marketplace](projects/NFT_Marketplace) --> [Ver resultado](https://arnaunin.github.io/frontend_projects/projects/NFT_Marketplace/code/)
 #### [5. Grocery Store](projects/Grocery_Store) --> [Ver resultado](https://arnaunin.github.io/frontend_projects/projects/Grocery_Store/code/)
-#### [6. Elearning Landing Page Responsive](projects/Elearning_Landing_Page_Responsive) --> [Ver resultado](https://arnaunin.github.io/frontend_projects/projects/Elearning_Landing_Page_Responsive/)
+#### [6. Elearning Landing Page Responsive](projects/Elearning_Landing_Page_Responsive) --> [Ver resultado](https://arnaunin.github.io/frontend_projects/projects/Elearning_Landing_Page_Responsive/code/)
 
 ## Requisitos para descargar y usar el proyecto
 
