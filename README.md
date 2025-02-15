@@ -14,17 +14,36 @@ Este repositorio contiene una colección de proyectos de diseño y desarrollo we
 ## Requisitos para descargar y usar el proyecto
 
 #### 1. Instalar Node.js
-#### 2. Descargar extensión de VsCode Live Server
-#### 3. Descargar extensión de VsCode Live Sass Compiler
-#### 4. Descargar el repositorio
-#### 5. Instalar las dependecnias
-#### 6. Ejecutar Sass para compilar los estilos
-#### 7. Abrir en VsCode
-#### 8. Abrir con Live Server
+- NodeJs -> [Descargar aquí](https://www.conquerblocks.com/)
+#### 2. Instalar extensiones de VsCode
+- Live Server -> [Descargar aquí](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) o busca Live Server en VsCode
+- Live Sass Compiler -> [Descargar aquí](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) o buscar Live Sass Compiler
+#### 3. Descargar el repositorio
+1. Clonar el repositorio
+   ```
+   git clone https://github.com/arnaunin/frontend_projects.git
+   ```
 
+2. Navegar a la carpeta del repositorio
+   ```
+   cd frontend_projects
+   ```
+#### 4. Instalar las dependecnias
+```
+npm install
+```
+#### 5. Ejecutar Sass para compilar los estilos
+```
+sass --watch sass/app.scss css/style.css
+```
+#### 6. Abrir en VsCode
+```
+code .
+```
+Si no tienes el comando habilitado simplemente abre la VsCode y después abre la carpeta
 
-
-
+#### 7. Abrir con Live Server
+Busca en la parte inferior de la pantalla la opción Go Live o haz click derecho encima de `index.html` y selecciona **"Open with Live Server"**
 
 ## Contribuciones
 
