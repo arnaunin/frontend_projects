@@ -11,7 +11,17 @@ Este repositorio contiene una colección de proyectos de diseño y desarrollo we
 #### [5. Grocery Store](projects/Grocery_Store)
 #### [6. Elearning Landing Page Responsive](projects/Elearning_Landing_Page_Responsive)
 
-## Requisitos previos
+## Requisitos para descargar y usar el proyecto
+
+#### 1. Instalar Node.js
+#### 2. Descargar extensión de VsCode Live Server
+#### 3. Descargar extensión de VsCode Live Sass Compiler
+#### 4. Descargar el repositorio
+#### 5. Instalar las dependecnias
+#### 6. Ejecutar Sass para compilar los estilos
+#### 7. Abrir en VsCode
+#### 8. Abrir con Live Server
+
 
 
 
