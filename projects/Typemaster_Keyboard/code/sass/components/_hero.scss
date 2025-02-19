@@ -1,0 +1,43 @@
+.hero {
+
+    padding-top: 48px;
+
+    &__title {
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 48px;
+    }
+
+    &__subtitle {
+        padding-top: 40px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    &__images {
+        width: 100vw;
+        padding-top: 70px;
+        position: relative;
+        overflow: hidden;
+
+        .image-1 {
+            width: 350px;
+        }
+        
+    }
+
+    &__buttons {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            padding: 15px 25px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+    }
+}

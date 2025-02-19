@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grey-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #E8EFF2;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #162542;
+  text-transform: uppercase;
+}
+.grey-button:hover {
+  background-color: #162542;
+  color: #FFFFFF;
+}
+
+.orange-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #F16718;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.orange-button:hover {
+  background-color: #FF9B62;
+  color: #FFFFFF;
+}
+
+.hero {
+  padding-top: 48px;
+}
+.hero__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 48px;
+}
+.hero__subtitle {
+  padding-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+.hero__images {
+  width: 100vw;
+  padding-top: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.hero__images .image-1 {
+  width: 350px;
+}
+.hero__buttons {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__buttons p {
+  padding: 15px 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header {
+  padding-top: 16px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container img {
+  width: 40px;
+}
+.header .container .menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div.container {
+  padding-left: 22px;
+  padding-right: 22px;
+  max-width: 1440px;
+}
+
+html * {
+  font-family: "Barlow", serif;
+}
+
+body {
+  overflow-x: hidden;
+  color: #7B8BAD;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: #162542;
+  font-weight: 900;
+}/*# sourceMappingURL=app.css.map */
