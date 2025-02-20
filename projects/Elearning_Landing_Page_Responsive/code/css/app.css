@@ -419,7 +419,7 @@ div.container {
 
 @media (min-width: 768px) {
   body {
-    background-image: url(../../img/hero-img.png);
+    background-image: url(../img/hero-img.png);
     background-repeat: no-repeat;
     background-position: top -10px right -90px;
     background-size: 425px;
@@ -427,7 +427,7 @@ div.container {
 }
 @media (min-width: 1024px) {
   body {
-    background-image: url(../../img/hero-img.png);
+    background-image: url(../img/hero-img.png);
     background-repeat: no-repeat;
     background-position: top right -10px;
     background-size: 450px;
@@ -435,7 +435,7 @@ div.container {
 }
 @media (min-width: 1200px) {
   body {
-    background-image: url(../../img/hero-img.png);
+    background-image: url(../img/hero-img.png);
     background-repeat: no-repeat;
     background-position: top right -10px;
     background-size: 500px;
@@ -443,7 +443,7 @@ div.container {
 }
 @media (min-width: 1440px) {
   body {
-    background-image: url(../../img/hero-img.png);
+    background-image: url(../img/hero-img.png);
     background-repeat: no-repeat;
     background-position: top right -10px;
     background-size: 550px;
